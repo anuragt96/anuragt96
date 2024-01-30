@@ -18,5 +18,5 @@
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhjeWJzbWtjYTF5dHJqbDlhaHZyeng2cGt2aGI1ajdwbDFoaXYxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1sMGC0XjA1Hk58wppo/giphy.gif" width="100"/>
 </div>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=anuragt96)](https://github.com/ryo-ma/github-profile-trophy)
 
-https://github-profile-trophy.vercel.app/?username=anuragt96](https://github.com/ryo-ma/github-profile-trophy)
