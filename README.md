@@ -15,6 +15,7 @@
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
+<img src="https://komarev.com/ghpvc/?username=anuragt96&style=flat-square&color=blue" alt=""/>
 
 - 🔭 I’m currently working as Software Development Engineer in Test(SDET)/QA Engineer
 - 🌱 I’m currently learning Web automation testing using the selenium and JAVA programming language
