@@ -15,8 +15,8 @@
 
 - 🔭 I’m currently working as QA Engineer
 - 🌱 I’m currently learning Web automation testing using the selenium and JAVA and API Testing
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...Automation testing
+- 👯 I’m looking to collaborate on ...Playwright
+- 🤔 I’m looking for help with ...
 - 📫 You can reach me out on anuragtiwari21996@gmail.com
 - 💬 Ask me about Manual Testing, QA Processes, Agile methodology, Selenium, SDET, JAVA, POSTMAN, Rest Assured(REST API).
 - 👨‍💻 All of my projects are available at https://github.com/anuragt96
