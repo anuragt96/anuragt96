@@ -13,14 +13,16 @@
 
 <h2 align="center">Hi there I'm Anurag Tiwari 👋 </h2>
 
-- 🔭 I’m currently working as QA Engineer
-- 🌱 I’m currently learning Web automation testing using the selenium and JAVA and API Testing
+<h2 align="center"> Breaking Code to Build Quality 🚀 | Software Test Engineer</h2>
+<h4 align="center">🔍 Passionate about creating robust test strategies and improving end-to-end software quality. 👨‍💻 Hands-on with Playwright, Selenium, API testing, and database, ensuring every release is reliable.</h4>
+
+-🔭 I’m currently working on ...........Web Automation
 - 👯 I’m looking to collaborate on ...Playwright
 - 🤔 I’m looking for help with ...
 - 📫 You can reach me out on anuragtiwari21996@gmail.com
-- 💬 Ask me about Manual Testing, QA Processes, Agile methodology, Selenium, SDET, JAVA, POSTMAN, Rest Assured(REST API).
+- 💬 Ask me about Manual Testing, QA Processes, Agile methodology, Selenium, JAVA, POSTMAN, Rest Assured(REST API).
 - 👨‍💻 All of my projects are available at https://github.com/anuragt96
-- ⚡ Fact: ...
+- ⚡ Fact: "For me, every bug is a story, and every fix is a happy ending."
 
 ---
 ### :hammer_and_wrench: Languages and Tools
