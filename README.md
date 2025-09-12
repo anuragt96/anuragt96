@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhjeWJzbWtjYTF5dHJqbDlhaHZyeng2cGt2aGI1ajdwbDFoaXYxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1sMGC0XjA1Hk58wppo/giphy.gif" width="100"/>
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjhjeWJzbWtjYTF5dHJqbDlhaHZyeng2cGt2aGI1ajdwbDFoaXYxeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/1sMGC0XjA1Hk58wppo/giphy.gif" width="200"/>
 </div>
 <div id="badges" align="center">
   <a href="https://www.linkedin.com/in/anurags-qa">
