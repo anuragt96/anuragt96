@@ -1,6 +1,6 @@
 <!-- Banner -->
 <div align="center">
-  <img src="./github-header-banner.png" width="100%" alt="Software Testing Banner"/>
+  <img src="./banner.png" width="100%" alt="Software Testing Banner"/>
 </div>
 
 <div id="badges" align="center">
