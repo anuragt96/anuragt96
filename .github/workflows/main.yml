@@ -2,8 +2,8 @@ name: Rotate Banner Daily
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # runs daily at midnight UTC
-  workflow_dispatch:     # allows manual trigger
+    - cron: '0 0 * * *'  # daily at midnight UTC
+  workflow_dispatch:     # manual run
 
 jobs:
   rotate:
@@ -12,21 +12,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: List all banner images
+      - name: List all banner images safely
         id: list_banners
         run: |
-          # List all images in banners folder
-          BANNERS=($(ls banners/*.{png,jpg,jpeg,gif} 2>/dev/null))
+          # Find all images in banners folder
+          BANNERS=($(find banners -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.gif" \)))
           if [ ${#BANNERS[@]} -eq 0 ]; then
             echo "No banners found!"
             exit 1
           fi
           echo "Found banners: ${BANNERS[@]}"
-          
+
           # Exclude current banner.png if it exists
           if [ -f banner.png ]; then
             CURRENT=$(basename banner.png)
-            # Filter out current banner
             FILTERED=()
             for b in "${BANNERS[@]}"; do
               if [ "$(basename $b)" != "$CURRENT" ]; then
@@ -36,7 +35,7 @@ jobs:
             BANNERS=("${FILTERED[@]}")
           fi
 
-          # Pick random banner
+          # Pick a random banner
           RANDOM_INDEX=$(( RANDOM % ${#BANNERS[@]} ))
           SELECTED=${BANNERS[$RANDOM_INDEX]}
           echo "Selected banner: $SELECTED"
