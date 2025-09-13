@@ -3,25 +3,53 @@ name: Rotate Banner Daily
 on:
   schedule:
     - cron: '0 0 * * *'  # runs daily at midnight UTC
-  workflow_dispatch:     # allows manual run
+  workflow_dispatch:     # allows manual trigger
 
 jobs:
   rotate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Pick a random banner
+      - name: List all banner images
+        id: list_banners
         run: |
-          BANNERS=(banners/banner1.png banners/banner2.png banners/banner3.png)
-          RANDOM_INDEX=$(( RANDOM % ${#BANNERS[@]} ))
-          echo "Selected banner: ${BANNERS[$RANDOM_INDEX]}"
-          cp ${BANNERS[$RANDOM_INDEX]} banner.png
+          # List all images in banners folder
+          BANNERS=($(ls banners/*.{png,jpg,jpeg,gif} 2>/dev/null))
+          if [ ${#BANNERS[@]} -eq 0 ]; then
+            echo "No banners found!"
+            exit 1
+          fi
+          echo "Found banners: ${BANNERS[@]}"
+          
+          # Exclude current banner.png if it exists
+          if [ -f banner.png ]; then
+            CURRENT=$(basename banner.png)
+            # Filter out current banner
+            FILTERED=()
+            for b in "${BANNERS[@]}"; do
+              if [ "$(basename $b)" != "$CURRENT" ]; then
+                FILTERED+=("$b")
+              fi
+            done
+            BANNERS=("${FILTERED[@]}")
+          fi
 
-      - name: Commit and push new banner
+          # Pick random banner
+          RANDOM_INDEX=$(( RANDOM % ${#BANNERS[@]} ))
+          SELECTED=${BANNERS[$RANDOM_INDEX]}
+          echo "Selected banner: $SELECTED"
+          echo "banner=$SELECTED" >> $GITHUB_ENV
+
+      - name: Copy selected banner
+        run: |
+          cp "$banner" banner.png
+
+      - name: Commit & push updated banner
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add banner.png
-          git commit -m "Rotate banner image"
-          git push
+          git diff --cached --exit-code || git commit -m "Rotate banner image"
+          git push || echo "No changes to commit"
