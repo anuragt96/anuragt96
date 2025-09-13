@@ -1,6 +1,6 @@
 <!-- Banner -->
 <div align="center">
-  <img src="./banner.png" width="100%" alt="Software Testing Banner"/>
+  <img src="./github-header-banner.png" width="100%" alt="Software Testing Banner"/>
 </div>
 
 <div id="badges" align="center">
@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=anuragt96&style=flat-square&color=blue&label=Profile+Views&logo=github" alt="Profile Views" width="250"/>
+  <img src="https://komarev.com/ghpvc/?username=anuragt96&style=flat-square&color=blue&label=Profile+Views&logo=github" alt="Profile Views" width="150"/>
 </div>
 
 ---
@@ -38,49 +38,37 @@
 
 ---
 
-## 🖥️ Languages  
-<div align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" title="Java" width="90" height="90" style="margin: 25px;"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="90" height="90" style="margin: 25px;"/>
-</div>
+## 🖥️ Languages & Other Tools
 
----
+<p align="center">
 
-## 🛠️ Automation Tools
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/selenium/selenium-original.svg" title="Selenium" width="90" height="90" style="margin: 25px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/playwright/playwright-original.svg" title="Playwright" width="90" height="90" style="margin: 25px;"/>
-</div>
+<!-- Languages -->
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
 
----
+<!-- Automation Tools -->
+<img src="https://github.com/devicons/devicon/blob/master/icons/selenium/selenium-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/playwright/playwright-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
 
-## ⚙️ API & Project Tools
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg" title="Postman" width="90" height="90" style="margin: 25px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original.svg" title="Jira" width="90" height="90" style="margin: 25px;"/>
-</div>
+<!-- API & Project Tools -->
+<img src="https://github.com/devicons/devicon/blob/master/icons/postman/postman-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/swagger/swagger-original-wordmark.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
 
----
+<!-- Database -->
+<img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
 
-## 💾 Database
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL" width="90" height="90" style="margin: 25px;"/>
-</div>
+<!-- Version Control & DevOps -->
+<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
+<img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" width="90" height="90" style="border:2px solid #ccc; border-radius:10px; padding:10px; margin:25px;"/>
 
----
-
-## 🔧 DevOps & Version Control
-<div align="center">
-  <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" width="90" height="90" style="margin: 25px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/gitlab/gitlab-original.svg" title="GitLab" width="90" height="90" style="margin: 25px;"/>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" title="Jenkins" width="90" height="90" style="margin: 25px;"/>
-</div>
+</p>
 
 ---
 
 ## 🏆 GitHub Trophies  
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anuragt96&theme=gruvbox&margin-w=15&margin-h=15&row=2&column=4"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=anuragt96&theme=gruvbox&margin-w=15&margin-h=15&row=1&column=4"/>
 </p>
 
 ---
