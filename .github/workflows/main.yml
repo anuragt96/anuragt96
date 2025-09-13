@@ -1,0 +1,27 @@
+name: Rotate Banner Daily
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # runs daily at midnight UTC
+  workflow_dispatch:     # allows manual run
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Pick a random banner
+        run: |
+          BANNERS=(banners/banner1.png banners/banner2.png banners/banner3.png)
+          RANDOM_INDEX=$(( RANDOM % ${#BANNERS[@]} ))
+          echo "Selected banner: ${BANNERS[$RANDOM_INDEX]}"
+          cp ${BANNERS[$RANDOM_INDEX]} banner.png
+
+      - name: Commit and push new banner
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add banner.png
+          git commit -m "Rotate banner image"
+          git push
